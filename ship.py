@@ -15,6 +15,6 @@ class Ship():
         self.rect.centerx = self.screen_rect.centerx
         self.rect.bottom = self.screen_rect.bottom
 
-    def bitme(self):
+    def blitme(self):
         """Draw the ship at it's current location."""
-        self.screen.bit(self.image, self.rect)
+        self.screen.blit(self.image, self.rect)
