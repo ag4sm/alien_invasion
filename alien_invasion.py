@@ -4,7 +4,7 @@ from settings import Settings
 from ship import Ship
 
 def run_game():
-    # Initialize pygame, settings screen object
+    # Initialize pygame, settings, screen object
     pygame.init()
     ai_settings = Settings()
     screen = pygame.display.set_mode((ai_settings.screen_width, ai_settings.screen_height))
@@ -26,5 +26,5 @@ def run_game():
 
         # make the most recently drawn screen visible
         pygame.display.flip()
-        
+
 run_game()
