@@ -8,7 +8,7 @@ class Ship():
         # load ship image
         self.image = pygame.image.load("./images/ship.bmp")
         self.rect = self.image.get_rect()
-        self.screen_rect = screen.get.rect()
+        self.screen_rect = screen.get_rect()
 
         # start each ship at the bottom center of the screen.
         self.rect.centerx = self.screen_rect.centerx
