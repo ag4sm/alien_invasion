@@ -24,7 +24,7 @@ def check_keydown_events(event, ai_settings, screen, ship, bullets):
         bullets.add(new_bullet)
 
 def check_keyup_events(event, ship):
-    """Respond to key releases."""
+    # Respond to key releases.
     if event.key == pygame.K_RIGHT:
         ship.moving_right = False
     elif event.key == pygame.K_LEFT:
